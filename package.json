@@ -1,0 +1,35 @@
+{
+  "name": "@ligatrix/handover-kit",
+  "version": "1.0.0",
+  "description": "The package a client receives when a system is handed over, and the CLI that builds and verifies it.",
+  "keywords": ["handover", "documentation", "runbook", "vendor-lock-in", "cli"],
+  "type": "module",
+  "license": "MIT",
+  "author": "Ligatrix LLC <info@ligatrix.com>",
+  "homepage": "https://github.com/Ligatrix/ligatrix-handover-kit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ligatrix/ligatrix-handover-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ligatrix/ligatrix-handover-kit/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "handover": "bin/handover.mjs"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.mjs"
+    }
+  },
+  "types": "./src/index.d.ts",
+  "files": ["bin", "src", "examples", "README.md", "LICENSE", "CHANGELOG.md"],
+  "scripts": {
+    "test": "node --test",
+    "lint": "node scripts/lint.mjs"
+  }
+}

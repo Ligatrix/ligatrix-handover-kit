@@ -1,0 +1,5 @@
+# Only the root node_modules: the test fixtures ship their own on purpose.
+/node_modules/
+coverage/
+*.log
+.DS_Store
