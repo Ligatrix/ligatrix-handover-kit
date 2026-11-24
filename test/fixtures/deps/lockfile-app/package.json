@@ -1,0 +1,15 @@
+{
+  "name": "corvane-ops-portal",
+  "version": "1.8.0",
+  "private": true,
+  "dependencies": {
+    "fastify": "^4.28.0",
+    "legacy-lib": "~2.0.0",
+    "old-style": "1.x",
+    "pg": "^8.12.0",
+    "unpublished-helper": "^0.3.0"
+  },
+  "devDependencies": {
+    "c8": "^10.1.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "no-lockfile",
+  "dependencies": {
+    "csv-parse": "^5.5.0",
+    "a|b": "^1.0.0"
+  }
+}

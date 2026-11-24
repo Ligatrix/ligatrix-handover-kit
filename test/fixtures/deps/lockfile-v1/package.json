@@ -1,0 +1,6 @@
+{
+  "name": "older-project",
+  "dependencies": {
+    "zod": "^3.22.0"
+  }
+}
